@@ -1,0 +1,42 @@
+.infoContainer {
+  background-color: rgb(245, 231, 205);
+  padding-top: 100px;
+}
+
+.upPart {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.infoImage {
+  width: 50%;
+}
+
+.box {
+  position: absolute;
+  bottom: 40px;
+  right: 60%;
+  width: 400px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 28px;
+}
+
+.bottomPart {
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.infoLogos {
+  margin-top: 25px;
+}
+
+.logoImgInfo {
+  width: 150px;
+  margin-right: 50px;
+}

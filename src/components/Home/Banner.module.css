@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap");
+
+.bannerContainer {
+  color: white;
+  height: 500px;
+  padding: 0 60px 0 60px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.bannerContainer h1 {
+  font-size: 100px;
+  line-height: 120px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.bannerContainer p {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.24px;
+}
+
+.bnrBtn {
+  width: 180px;
+  height: 40px;
+  background-color: #d59a02;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
