@@ -16,3 +16,39 @@ body {
     #eb5757
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.smallTitle {
+  margin-left: 15px;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: flex;
+}
+
+.radio-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.radio-dot {
+  right: 250px;
+  display: inline-block;
+  width: 8px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #bbb;
+  margin-right: 5px;
+}
+
+.radio-dot.active {
+  background-color: #333;
+}

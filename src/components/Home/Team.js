@@ -8,7 +8,7 @@ function Team() {
   return (
     <>
       <div className={styles.teamContainer}>
-        <h2>Meet Our Team</h2>
+        <h2 className="smallTitle">Meet Our Team</h2>
         <div className={styles.membersContainer}>
           <div className={styles.memberCard}>
             <img src={member1} alt="member1" className={styles.mbrImg}></img>
