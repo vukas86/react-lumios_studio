@@ -1,0 +1,35 @@
+.projectContainer {
+  padding: 100px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.projectCard {
+  width: 450px;
+  margin: 20px;
+}
+
+.projectCard h3 {
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 1.6px;
+}
+
+.projectCard p {
+  color: #7b7979;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.24px;
+}
+
+.prjctImg {
+  height: 540px;
+  width: 450px;
+  border-radius: 6px;
+}

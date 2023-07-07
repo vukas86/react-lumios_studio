@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "image": "../assets/images/projects/project1.jbg",
+      "name": "Grown Market",
+      "text": "We helped Grown Market stand out with a unique and captivating design."
+    },
+    {
+      "image": "../assets/images/projects/project2.jbg",
+      "name": "Can World",
+      "text": "We provided Can World with a stunning visual identity that perfectly reflects their company as a leading producer of cans."
+    },
+    {
+      "image": "../assets/images/projects/project3.jbg",
+      "name": "Moven",
+      "text": ": Our expert design team played a crucial role in helping Moven attract new customers seeking assistance in renting a car. "
+    },
+    {
+      "image": "../assets/images/projects/project.4jbg",
+      "name": "Primain",
+      "text": "Through our exceptional design, we have beautifully showcased the enchanting allure of oriental lamps, allowing Primain to share their exquisite craftsmanship and transport customers to a world of captivating illumination."
+    },
+    {
+      "image": "../assets/images/projects/project.5jbg",
+      "name": "Wizard Antiques",
+      "text": "Our design expertise has transformed Wizard Antiques with a unique and captivating look that perfectly complements their store, creating a captivating atmosphere that brings their antique collection to life."
+    },
+    {
+      "image": "../assets/images/projects/project.6jbg",
+      "name": "Coffetin",
+      "text": "As the creative force behind Baristas Magazine and a leading coffee company, we have crafted a captivating design that not only engages visually but also stimulates the senses. "
+    }
+  ]
+}
