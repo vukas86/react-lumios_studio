@@ -1,8 +1,8 @@
 import styles from "./Team.module.css";
-import member1 from "../../assets/images/img1.jpg";
-import member2 from "../../assets/images/img2.jpg";
-import member3 from "../../assets/images/img3.jpg";
-import member4 from "../../assets/images/img4.jpg";
+import member1 from "../../assets/images/team/img1.jpg";
+import member2 from "../../assets/images/team/img2.jpg";
+import member3 from "../../assets/images/team/img3.jpg";
+import member4 from "../../assets/images/team/img4.jpg";
 
 function Team() {
   return (
