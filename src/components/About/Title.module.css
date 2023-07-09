@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "CanavaGrotesk-Regular";
+  src: url("../../assets/fonts/Canava\ Grotesk\ Free\ Edition/CanavaGrotesk-Regular.otf")
+    format("opentype");
+}
+
+.titleContainer {
+  margin: 100px 0 160px 40px;
+  font-family: "CanavaGrotesk-Regular", sans-serif;
+  font-size: 130px;
+  line-height: 250px;
+  color: white;
+  /* letter-spacing: -8px; */
+}
+.aboutContainer {
+  color: white;
+}
+.aboutCard {
+  display: flex;
+  justify-content: right;
+  margin: 60px 50px 0 0;
+}
+.aboutCard h3 {
+  margin-right: 60px;
+}
+
+.aboutCard p {
+  width: 40%;
+  font-size: 20px;
+  line-height: 25px;
+}

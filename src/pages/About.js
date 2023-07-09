@@ -1,7 +1,12 @@
 import React from "react";
+import Intro from "../components/About/Intro";
 
 function About() {
-  return <>About</>;
+  return (
+    <>
+      <Intro />
+    </>
+  );
 }
 
 export default About;

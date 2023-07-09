@@ -1,34 +1,63 @@
 {
   "projects": [
     {
-      "image": "../assets/images/projects/project1.jbg",
+      "id": "p1",
+      "image": "../assets/images/projects/project1.jpg",
       "name": "Grown Market",
       "text": "We helped Grown Market stand out with a unique and captivating design."
     },
     {
-      "image": "../assets/images/projects/project2.jbg",
+      "id": "p6",
+      "image": "../../assets/images/projects/project2.jpg",
       "name": "Can World",
       "text": "We provided Can World with a stunning visual identity that perfectly reflects their company as a leading producer of cans."
     },
     {
-      "image": "../assets/images/projects/project3.jbg",
+      "id": "p2",
+      "image": "../../assets/images/projects/project3.jpg",
       "name": "Moven",
-      "text": ": Our expert design team played a crucial role in helping Moven attract new customers seeking assistance in renting a car. "
+      "text": "Our expert design team played a crucial role in helping Moven attract new customers seeking assistance in renting a car. "
     },
     {
-      "image": "../assets/images/projects/project.4jbg",
+      "id": "p3",
+      "image": "../../assets/images/projects/project4.jpg",
       "name": "Primain",
       "text": "Through our exceptional design, we have beautifully showcased the enchanting allure of oriental lamps, allowing Primain to share their exquisite craftsmanship and transport customers to a world of captivating illumination."
     },
     {
-      "image": "../assets/images/projects/project.5jbg",
+      "id": "p4",
+      "image": "../../assets/images/projects/project5.jpg",
       "name": "Wizard Antiques",
       "text": "Our design expertise has transformed Wizard Antiques with a unique and captivating look that perfectly complements their store, creating a captivating atmosphere that brings their antique collection to life."
     },
     {
-      "image": "../assets/images/projects/project.6jbg",
+      "id": "p5",
+      "image": "../../assets/images/projects/project6.jpg",
       "name": "Coffetin",
       "text": "As the creative force behind Baristas Magazine and a leading coffee company, we have crafted a captivating design that not only engages visually but also stimulates the senses. "
+    }
+  ],
+  "about": [
+    {
+      "id": "a1",
+      "title": "Unleashing Creativity and Collaboration",
+      "text": "We are a creative team dedicated to delivering exceptional design solutions for a diverse range of clients. From small local businesses to large corporations, non-profit organizations, and cultural institutions, our expertise spans across industries and sectors. Collaborating closely with our clients, we strive to understand their unique needs and goals, ensuring that our design solutions align perfectly with their vision."
+    },
+    {
+      "id": "a2",
+      "title": " Embracing the Latest Design Trends",
+      "text": "At our core, we are a tight-knit team of passionate individuals who truly enjoy working together. By fostering a collaborative and innovative environment, we continuously push the boundaries of design, staying at the forefront of the latest trends and technologies. This enables us to create fresh and cutting-edge solutions that captivate audiences and deliver tangible results for our clients."
+    },
+
+    {
+      "id": "a4",
+      "title": " Creating Exceptional Solutions",
+      "text": "We believe that only by embracing the latest design trends and techniques can we craft the most effective and impactful solutions. By staying ahead of the curve, we consistently provide our clients with innovative designs that leave a lasting impression."
+    },
+    {
+      "id": "a5",
+      "title": " Turning Visions into Reality",
+      "text": "Join us on this creative journey as we blend artistry, strategy, and the latest design trends to create exceptional experiences for our clients. Together, we can turn visions into reality and make a lasting impact in the world of design."
     }
   ]
 }
