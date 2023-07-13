@@ -1,0 +1,29 @@
+.capaContainer {
+  background-color: #fff;
+  padding: 50px 40px;
+}
+.captTitle {
+  font-size: 46px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.capLists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.capList h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: red;
+}
+
+.capList li {
+  list-style: none;
+  margin-top: 10px;
+  font-size: 18px;
+}

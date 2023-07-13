@@ -1,5 +1,5 @@
 import data from "../../data/data.json";
-import styles from "./Title.module.css";
+import styles from "./Intro.module.css";
 
 function Intro() {
   console.log(data.about);
