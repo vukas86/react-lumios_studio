@@ -1,2 +1,18 @@
 .officeContainer {
+  background-color: #fffaef;
+  padding: 50px 0 25px 0;
+}
+
+.officeContainer h1 {
+  margin: 100px 0px 100px 20px;
+}
+.officeImgs {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.officeImgs img {
+  width: 450px;
+  height: 600px;
 }

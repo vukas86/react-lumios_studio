@@ -40,8 +40,6 @@ function Testemonials() {
     return () => clearInterval(interval);
   }, [testemContent.length]);
 
-  console.log(activeMsg);
-
   return (
     <>
       <div className={styles.testemContainer}>

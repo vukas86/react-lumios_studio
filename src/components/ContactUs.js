@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./ContactUs.module.css";
 
 function ContactUs() {
@@ -7,9 +8,9 @@ function ContactUs() {
         <h2>
           Unlock Your Brand's Potential. <br /> Connect with Us Today!
         </h2>
-        <a href="/">
+        <Link to="/contact">
           Contact Us <span>&#8594;</span>
-        </a>
+        </Link>
       </div>
     </>
   );

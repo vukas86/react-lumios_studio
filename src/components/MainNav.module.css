@@ -1,0 +1,85 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #250e0e; */
+  color: white;
+}
+
+.brandLogo img {
+  width: 100px;
+  margin: 0.5rem;
+}
+
+.navBarLinks ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navBarLinks li {
+  list-style: none;
+}
+
+.navBarLinks li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+  font-size: 24px;
+}
+
+.navBarLinks li:hover {
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+
+.toggleBtn {
+  position: absolute;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggleBtn .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+  .toggleBtn {
+    display: flex;
+    margin-top: 45px;
+  }
+  .navBarLinks {
+    display: none;
+    width: 100%;
+  }
+
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navBarLinks ul {
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .navBarLinks li {
+    text-align: center;
+  }
+
+  .navBarLinks li a {
+    padding: 0.5rem;
+  }
+
+  .active {
+    display: flex;
+  }
+}

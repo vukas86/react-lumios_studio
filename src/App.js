@@ -4,13 +4,20 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Works from "./pages/Works";
 import "./App.css";
+import RootLayout from "./pages/Root";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/about", element: <About /> },
-  { path: "/contact", element: <Contact /> },
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/about", element: <About /> },
+      { path: "/contact", element: <Contact /> },
 
-  { path: "/works", element: <Works /> },
+      { path: "/works", element: <Works /> },
+    ],
+  },
 ]);
 
 function App() {
