@@ -37,3 +37,7 @@
   height: 350px;
   border-radius: 7px;
 }
+
+.lazyImg {
+  filter: blur(20px);
+}

@@ -12,14 +12,16 @@ import Contact from "./pages/Contact";
 import Works from "./pages/Works";
 import "./App.css";
 import RootLayout from "./pages/Root";
+import ErrorPage from "./pages/ErrorPage";
 import ScrollToTop from "./components/ScrollToTop";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
+    errorElement: <ErrorPage />,
     children: [
-      { path: "/", element: <Home /> },
+      { index: true, element: <Home /> },
       { path: "/about", element: <About /> },
       { path: "/contact", element: <Contact /> },
 

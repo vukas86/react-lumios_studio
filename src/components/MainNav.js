@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./MainNav.module.css";
 import logo from "../assets/logos/_40288144-e7b7-496a-b16a-8baeacb41505-removebg-preview.png";
 
@@ -27,16 +27,44 @@ function MainNav() {
         <div className={`${styles.navBarLinks} ${activeClass}`}>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? styles.activeBar : undefined
+                }
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive ? styles.activeBar : undefined
+                }
+              >
+                About
+              </NavLink>
             </li>
             <li>
-              <Link to="/works">Projects</Link>
+              <NavLink
+                to="/works"
+                className={({ isActive }) =>
+                  isActive ? styles.activeBar : undefined
+                }
+              >
+                Projects
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive ? styles.activeBar : undefined
+                }
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>

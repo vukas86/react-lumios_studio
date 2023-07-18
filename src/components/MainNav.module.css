@@ -29,7 +29,8 @@
   font-size: 24px;
 }
 
-.navBarLinks li:hover {
+.navBarLinks li a:hover,
+.navBarLinks li a.activeBar {
   text-decoration: underline;
   text-decoration-color: green;
 }

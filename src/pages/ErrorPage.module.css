@@ -1,0 +1,14 @@
+.errorContainer {
+  margin: 2rem auto;
+  text-align: center;
+}
+.errorContainer img {
+  width: 500px;
+}
+
+.errorContainer p {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  fontsp: auto;
+}
