@@ -56,3 +56,7 @@ body {
 .projectsPage {
   background-color: white;
 }
+
+.lazyImg {
+  filter: blur(20px);
+}
