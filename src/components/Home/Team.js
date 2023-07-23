@@ -1,5 +1,7 @@
-import { useEffect, useState } from "react";
+import useLazyLoading from "../../hooks/useLazyLoading";
+
 import styles from "./Team.module.css";
+
 import member1 from "../../assets/images/team/img1.jpg";
 import member1lazy from "../../assets/images/team/img1-compressed.jpg";
 import member2 from "../../assets/images/team/img2.jpg";
@@ -10,37 +12,7 @@ import member4 from "../../assets/images/team/img4.jpg";
 import member4lazy from "../../assets/images/team/img4-compressed.jpg";
 
 function Team() {
-  const [imgBlur, setImgBlur] = useState(true);
-
-  useEffect(() => {
-    const imgTargets = document.querySelectorAll("img[data-src]");
-    const imgTargetsRef = Array.from(imgTargets);
-
-    const loadImg = function (entries, observer) {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          img.src = img.dataset.src;
-
-          img.addEventListener("load", () => {
-            setImgBlur(false);
-          });
-        }
-      });
-    };
-
-    const imgObserver = new IntersectionObserver(loadImg, {
-      root: null,
-      threshold: 0,
-    });
-
-    imgTargetsRef.forEach((img) => imgObserver.observe(img));
-
-    // Cleanup the observer when the component is unmounted
-    return () => imgObserver.disconnect();
-  }, []);
-
-  const blurClass = imgBlur ? "lazyImg" : "";
+  const { blurClass } = useLazyLoading();
 
   return (
     <>
@@ -94,24 +66,3 @@ function Team() {
 }
 
 export default Team;
-// useEffect(() => {
-//   const loadImg = function (entries, observer) {
-//     const [entry] = entries;
-
-//     if (!entry.isIntersecting) return;
-
-//     entry.target.src = entry.target.dataset.src;
-
-//     entry.target.addEventListener("load", () => {
-//       setImgBlur(false);
-//     });
-//     observer.unobserve(entry.target);
-//   };
-
-//   const imgObserver = new IntersectionObserver(loadImg, {
-//     root: null,
-//     threshold: 0.1,
-//   });
-
-//   imgTargets.forEach((img) => imgObserver.observe(img));
-// }, []);

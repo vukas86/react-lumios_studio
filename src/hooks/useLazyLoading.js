@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function LazyLoadImages() {
+function useLazyLoading() {
   const [imgBlur, setImgBlur] = useState(true);
 
   useEffect(() => {
@@ -35,4 +35,4 @@ function LazyLoadImages() {
   return { blurClass };
 }
 
-export default LazyLoadImages;
+export default useLazyLoading;

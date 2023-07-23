@@ -1,11 +1,16 @@
+import useLazyLoading from "../../hooks/useLazyLoading";
+
 import styles from "./Info.module.css";
+
 import developer from "../../assets/images/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg";
+import developerLazy from "../../assets/images/tim-van-der-kuip-lazy.jpg";
 import logo1 from "../../assets/logos/ad-removebg-preview.png";
 import logo2 from "../../assets/logos/ds-removebg-preview.png";
 import logo3 from "../../assets/logos/ss-removebg-preview.png";
 import logo4 from "../../assets/logos/uh-removebg-preview.png";
 
 function Info() {
+  const { blurClass } = useLazyLoading();
   return (
     <>
       <div className={styles.infoContainer}>
@@ -19,9 +24,10 @@ function Info() {
             </p>
           </div>
           <img
-            src={developer}
+            src={developerLazy}
+            data-src={developer}
             alt="Our team members"
-            className={styles.infoImage}
+            className={`${styles.infoImage} ${blurClass}`}
           ></img>
         </div>
         <div className={styles.bottomPart}>
