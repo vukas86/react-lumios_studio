@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import styles from "./AboutWork.module.css";
 
 import arrowIcon from "../../assets/icons/arrDo.svg";
@@ -6,8 +8,19 @@ function AboutWork() {
   return (
     <>
       <div className={styles.workContainer}>
-        <h2 className="smallTitle">Our Work</h2>
-        <p>
+        <motion.h2
+          initial={{ y: -40 }}
+          animate={{ y: 0.5 }}
+          transition={{ duration: 1.5 }}
+          className="smallTitle"
+        >
+          Our Work
+        </motion.h2>
+        <motion.p
+          initial={{ y: 300 }}
+          animate={{ y: 1.5 }}
+          transition={{ duration: 1 }}
+        >
           We are a versatile design studio specializing in building brands and
           creating exceptional experiences. We excel at solving complex problems
           with innovative solutions, helping bold companies make a lasting
@@ -16,7 +29,7 @@ function AboutWork() {
           interaction to create amazing moments that captivate audiences.
           Collaborate with us to unlock your brand's full potential and embark
           on a remarkable design adventure.
-        </p>
+        </motion.p>
         <div className={styles.iconContainer}>
           <img src={arrowIcon} alt="arrow icon" className={styles.arrowIcon} />
           {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

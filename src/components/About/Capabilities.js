@@ -1,9 +1,16 @@
+import { motion } from "framer-motion";
+
 import styles from "./Capabilities.module.css";
 
 function Capabilities() {
   return (
     <>
-      <section className={styles.capaContainer}>
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 1 }}
+        className={styles.capaContainer}
+      >
         <h3 className="smallTitle">Capabilities</h3>
         <h2 className={styles.captTitle}>What are we good at</h2>
         <div className={styles.capLists}>
@@ -32,7 +39,7 @@ function Capabilities() {
             </ul>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 }

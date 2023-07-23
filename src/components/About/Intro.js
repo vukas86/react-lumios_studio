@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import data from "../../data/data.json";
 import styles from "./Intro.module.css";
 
@@ -5,15 +6,24 @@ function Intro() {
   console.log(data.about);
   return (
     <>
-      <section className={styles.titleContainer}>
+      <motion.section
+        initial={{ marginTop: 450 }}
+        animate={{ y: -300 }}
+        transition={{ duration: 1 }}
+        className={styles.titleContainer}
+      >
         <h1>Light up your world!</h1>
-      </section>
+      </motion.section>
       <section className={styles.aboutContainer}>
         {data.about.map((text) => (
-          <div className={styles.aboutCard} key={text.id}>
+          <motion.div
+            whileInView={{ opacity: 1 }}
+            className={styles.aboutCard}
+            key={text.id}
+          >
             <h3>{text.title}</h3>
             <p>{text.text}</p>
-          </div>
+          </motion.div>
         ))}
       </section>
     </>

@@ -5,11 +5,12 @@
 }
 
 .titleContainer {
-  margin: 100px 0 160px 40px;
+  margin: 100px 0 0 40px;
   font-family: "CanavaGrotesk-Regular", sans-serif;
   font-size: 130px;
   line-height: 250px;
   color: white;
+
   /* letter-spacing: -8px; */
 }
 .aboutContainer {
@@ -20,6 +21,7 @@
   display: flex;
   justify-content: right;
   margin: 60px 50px 0 0;
+  opacity: 0;
 }
 .aboutCard h3 {
   margin-right: 60px;
