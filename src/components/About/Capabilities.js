@@ -6,7 +6,9 @@ function Capabilities() {
   return (
     <>
       <motion.section
-        initial={{ opacity: 0 }}
+        initial={{
+          opacity: 0,
+        }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 1 }}
         className={styles.capaContainer}

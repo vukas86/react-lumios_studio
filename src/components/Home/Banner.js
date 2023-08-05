@@ -17,11 +17,19 @@ function Banner() {
         <motion.h1 initial={{ marginLeft: 450 }} animate={{ x: -240 }}>
           Studio
         </motion.h1>
-        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.3 }}
+        >
           Dare to be Different, Choose our Design Studio
         </motion.p>
         <Link to="/contact">
-          <motion.button animate={{ scale: 1.5 }} className={styles.bnrBtn}>
+          <motion.button
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            className={styles.bnrBtn}
+          >
             Contact Us
           </motion.button>
         </Link>

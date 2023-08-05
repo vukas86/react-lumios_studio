@@ -11,7 +11,7 @@ function AboutWork() {
         <motion.h2
           initial={{ y: -40 }}
           animate={{ y: 0.5 }}
-          transition={{ duration: 1.5 }}
+          transition={{ type: "tween", duration: 1.3 }}
           className="smallTitle"
         >
           Our Work
@@ -19,7 +19,7 @@ function AboutWork() {
         <motion.p
           initial={{ y: 300 }}
           animate={{ y: 1.5 }}
-          transition={{ duration: 1 }}
+          transition={{ type: "tween", duration: 1 }}
         >
           We are a versatile design studio specializing in building brands and
           creating exceptional experiences. We excel at solving complex problems
