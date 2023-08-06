@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom";
 import styles from "./ContactUs.module.css";
+import { motion } from "framer-motion";
+
 import linkIcon from "../assets/icons/lnk.svg";
 import githubIcon from "../assets/icons/github.svg";
+
+const iconVarient = {
+  hidden: { scale: 1 },
+  visible: { scale: 1.25 },
+};
 
 function ContactUs() {
   return (
@@ -12,7 +19,14 @@ function ContactUs() {
             Unlock Your Brand's Potential. <br /> Connect with Us Today!
           </h2>
           <Link to="/contact">
-            Contact Us <span>&#8594;</span>
+            <motion.p whileHover={{ color: "#FFD700" }}>
+              <motion.span whileHover={{ paddingRight: 10 }}>
+                Contact Us
+              </motion.span>
+              <motion.span whileHover={{ paddingLeft: 12 }}>
+                &#8594;
+              </motion.span>
+            </motion.p>
           </Link>
         </section>
         <section className={styles.addresses}>
@@ -26,14 +40,26 @@ function ContactUs() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src={linkIcon} alt="linkendin logo" />
+              <motion.img
+                variants={iconVarient}
+                initial="hidden"
+                whileHover="visible"
+                src={linkIcon}
+                alt="linkendin logo"
+              />
             </a>
             <a
               href="https://github.com/vukas86"
               rel="noopener noreferrer"
               target="_blank"
             >
-              <img src={githubIcon} alt="github logo" />
+              <motion.img
+                variants={iconVarient}
+                initial="hidden"
+                whileHover="visible"
+                src={githubIcon}
+                alt="github logo"
+              />
             </a>
           </div>
         </section>

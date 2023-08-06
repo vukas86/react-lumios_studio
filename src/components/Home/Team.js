@@ -21,8 +21,8 @@ function Team() {
         <div className={styles.membersContainer}>
           <div className={styles.memberCard}>
             <img
-              src={member1}
-              data-src={member1lazy}
+              src={member1lazy}
+              data-src={member1}
               alt="member1"
               className={`${styles.mbrImg} ${blurClass}`}
             ></img>

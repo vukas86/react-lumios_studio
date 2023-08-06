@@ -1,4 +1,5 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 import styles from "./ContactForm.module.css";
 
@@ -98,9 +99,13 @@ function ContactForm() {
               />
             </div>
             <div className={styles.formBtn}>
-              <button type="submit" form="contact-form">
+              <motion.button
+                whileHover={{ borderColor: "#ffffff" }}
+                type="submit"
+                form="contact-form"
+              >
                 Send Message
-              </button>
+              </motion.button>
             </div>
           </form>
           {msgSubmitted ? <p>Message is submitted 🙂</p> : null}

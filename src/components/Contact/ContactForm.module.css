@@ -53,6 +53,7 @@
 .formBtn button {
   margin-top: 20px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .formContainer p {

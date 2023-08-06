@@ -7,7 +7,7 @@ function Intro() {
   return (
     <>
       <motion.section
-        initial={{ marginTop: 450 }}
+        initial={{ marginTop: 420 }}
         animate={{ y: -300 }}
         transition={{ duration: 1 }}
         className={styles.titleContainer}
