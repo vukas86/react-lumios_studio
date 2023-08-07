@@ -60,3 +60,9 @@ body {
 .lazyImg {
   filter: blur(20px);
 }
+
+@media screen and (max-width: 375px) {
+  .smallTitle {
+    text-align: center;
+  }
+}

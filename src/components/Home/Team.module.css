@@ -41,3 +41,33 @@
 .lazyImg {
   filter: blur(20px);
 }
+
+@media screen and (max-width: 480px) {
+  .teamContainer {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .membersContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .membersContainer h3 {
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+
+  .membersContainer p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14px;
+  }
+  .memberCard {
+    margin-top: 15px;
+  }
+  .mbrImg {
+    max-width: 300px;
+  }
+}

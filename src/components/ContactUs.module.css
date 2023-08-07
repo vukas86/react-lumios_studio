@@ -37,3 +37,21 @@
 .socialLinks a {
   margin-right: 40px;
 }
+
+@media screen and (max-width: 480px) {
+  .contactContainer {
+    padding-top: 60px;
+  }
+
+  .contactContainer h2 {
+    font-size: 28px;
+  }
+
+  .contactContainer a {
+    font-size: 32px;
+  }
+
+  .addresses {
+    flex-direction: column;
+  }
+}

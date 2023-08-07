@@ -51,7 +51,7 @@
   border-radius: 10px;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .toggleBtn {
     display: flex;
     margin-top: 45px;
