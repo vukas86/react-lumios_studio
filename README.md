@@ -49,6 +49,10 @@ Install dependencies
 
 Start the server
 
+## Screenshots
+
+[![sc1.png](https://i.postimg.cc/jS4L5sGn/sc1.png)](https://postimg.cc/fVkwqhWM)
+
 ```bash
   npm run start
 ```
