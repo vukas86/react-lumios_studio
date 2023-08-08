@@ -10,8 +10,6 @@
   font-size: 130px;
   line-height: 250px;
   color: white;
-
-  /* letter-spacing: -8px; */
 }
 .aboutContainer {
   color: white;
@@ -31,4 +29,36 @@
   width: 40%;
   font-size: 20px;
   line-height: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .titleContainer {
+    font-size: 55px;
+    line-height: 100px;
+    margin: 50px 0 0 20px;
+  }
+
+  .aboutContainer {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutCard {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .aboutCard p {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .aboutCard h3 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
