@@ -49,11 +49,15 @@ Install dependencies
 
 Start the server
 
+```bash
+  npm run start
+
 ## Screenshots
 
 [![sc1.png](https://i.postimg.cc/jS4L5sGn/sc1.png)](https://postimg.cc/fVkwqhWM)
 
-```bash
-  npm run start
+[![localhost-3000-works-i-Phone-12-Pro.png](https://i.postimg.cc/wjLDk8n9/localhost-3000-works-i-Phone-12-Pro.png)](https://postimg.cc/G43BcNcf)
+
+
 ```
 
