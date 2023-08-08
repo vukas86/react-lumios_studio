@@ -24,7 +24,7 @@ React, React Router, React Redux, Framer Motion
 
 ## Demo
 
-https://react-lumios-studio-7oortn6e5-vukas86.vercel.app/
+https://react-lumios-studio.vercel.app/
 
 
 ## Run Locally
