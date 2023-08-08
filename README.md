@@ -51,6 +51,7 @@ Start the server
 
 ```bash
   npm run start
+```
 
 ## Screenshots
 
@@ -59,5 +60,5 @@ Start the server
 [![localhost-3000-works-i-Phone-12-Pro.png](https://i.postimg.cc/wjLDk8n9/localhost-3000-works-i-Phone-12-Pro.png)](https://postimg.cc/G43BcNcf)
 
 
-```
+
 
